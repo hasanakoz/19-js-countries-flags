@@ -18,7 +18,7 @@ select {
   height: 3rem;
   box-shadow: 5px 5px 10px orange;
   padding-left: 10px;
-  width: 40%;
+  width: 40% !important ;
 }
 select option {
   font-size: 70%;
