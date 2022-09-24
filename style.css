@@ -1,5 +1,5 @@
 body {
-  height: 100vh;
+  min-height: 100vh;
   background: rgb(2, 0, 36);
   background: linear-gradient(
     297deg,
@@ -10,7 +10,7 @@ body {
     rgba(58, 190, 218, 1) 100%
   );
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 }
 
 select {
@@ -18,6 +18,10 @@ select {
   height: 3rem;
   box-shadow: 5px 5px 10px orange;
   padding-left: 10px;
+  width: 40%;
+}
+select option {
+  font-size: 70%;
 }
 
 h1 {
@@ -32,4 +36,9 @@ h1 {
 
 .countries .card:hover {
   transform: scale(1.1);
+}
+@media screen and (min-width: 780px) {
+  select {
+    font-size: 2rem !important;
+  }
 }

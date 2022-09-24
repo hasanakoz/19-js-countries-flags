@@ -32,8 +32,6 @@ function renderCountryNames(d) {
     let option = document.createElement("option");
     select.appendChild(option);
     option.appendChild(textNode);
-    option.style.fontSize = "1.5rem";
-    select.style.fontSize = "1.5rem";
   }
 }
 
